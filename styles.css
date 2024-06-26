@@ -117,10 +117,33 @@ section h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid gray;
+}
+
+.experience h3{
+    width: 40%;
+}
+
+.experience ul {
+    width: 60%;
+}
+
+.project h3{
+    width: 30%;
+}
+
+.project ul {
+    width: 50%;
+}
+
+.project a {
+    width: 6%;
 }
 
 .project a,
-.experience a {
+.experience a 
+{
     text-decoration: none;
     color: #007bff;
     padding: 5px 10px;
@@ -128,9 +151,23 @@ section h2 {
     border-radius: 5px;
 }
 
+.btn
+{
+    text-decoration: none;
+    color: #ef8b12;
+    padding: 5px 10px;
+    border: 1px solid #ef8b12;
+    border-radius: 5px;
+}
+
 .project a:hover,
-.experience a:hover {
+.experience a:hover{
     background-color: #007bff;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #ef8b12;
     color: #fff;
 }
 
